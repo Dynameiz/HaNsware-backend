@@ -25,7 +25,7 @@ passport.use(
             callbackURL: "http://localhost:3000/google/auth/google/callback",
         },
         function(accessToken, refreshToken, profile, cb){
-            console.log(profile.id);
+            
         }
     )
 );
